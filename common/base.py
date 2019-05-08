@@ -109,6 +109,13 @@ class Base():
         :return:
         """
         self.driver.quit()
+	def close_browser(self):
+		"""
+		关闭浏览器
+		:return:
+		"""
+		self.driver.quit()
+
 
 
 
